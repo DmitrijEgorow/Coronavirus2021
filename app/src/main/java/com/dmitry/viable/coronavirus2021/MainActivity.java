@@ -19,6 +19,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import java.util.ArrayList;
+import java.util.Objects;
 import java.util.Random;
 import java.util.stream.DoubleStream;
 
@@ -37,8 +38,7 @@ public class MainActivity extends AppCompatActivity {
         //ArrayList<String> data = new ArrayList<>();
         // TODO generate 10 numbers ~ standard normal distribution
 
-        Random rand = new Random();
-        double[] data = rand.doubles(10).toArray();
+
 
 
     }
